@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sk Altab Hossen - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body data-theme="light">
+    
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">Portfolio.</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience & Certifications</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="theme-toggle" class="theme-btn"><i class="fas fa-moon"></i></button>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="about" class="hero">
+        <div class="hero-content">
+            <img src="my img circle.png" alt="Sk Altab Hossen" class="profile-img">
+            <h1>Hi, I'm SK ALTAB HOSSEN[cite: 1]</h1>
+            <h3>B.Tech Graduate in Information Technology</h3>
+            <p>Recent graduate from the University of Kalyani with a strong interest in software development and building real-world applications. Eager to apply technical skills, solve complex problems, and continuously learn.</p>
+            <div class="social-links">
+                <a href="https://github.com/alt03a" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/sk-altab-hossen" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:skaltab.hossen03@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+            <a href="#contact" class="btn">Get In Touch</a>
+        </div>
+    </header>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card">
+                <i class="fas fa-code"></i>
+                <h3>Languages</h3>
+                <p>C++, C, Python, Java, JavaScript</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-laptop-code"></i>
+                <h3>Web & Databases</h3>
+                <p>HTML, CSS, MySQL</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-brain"></i>
+                <h3>Core Competencies</h3>
+                <p>DSA, OOP, Machine Learning, AI</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-cloud"></i>
+                <h3>Tools & Cloud</h3>
+                <p>Git, GitHub, Linux, Cloud Computing (AWS)</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section bg-alt">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-container">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <div class="project-header">
+                    <h3>Real-Time Voice Translator</h3>
+                    <!-- REPLACE # WITH YOUR REPO LINK -->
+                    <a href="#" target="_blank" class="repo-link"><i class="fab fa-github"></i> Source</a>
+                </div>
+                <p class="tech-stack">Python, NLP, Machine Learning</p>
+                <p>Engineered an offline real-time translation system converting speech to audio with optimized latency. Supports 15 languages including Hindi, Bengali, Punjabi, Gujarati, Telugu, and Tamil.</p>
+            </div>
+            <!-- Project 2 -->
+            <div class="project-card">
+                <div class="project-header">
+                    <h3>TripAi</h3>
+                    <!-- REPLACE # WITH YOUR REPO LINK IF APPLICABLE -->
+                    <a href="#" target="_blank" class="repo-link"><i class="fab fa-github"></i> Source</a>
+                </div>
+                <p class="tech-stack">Web Technologies, AI Integration</p>
+                <p>A smart trip planning application currently in development, designed to streamline travel itineraries and enhance user experience through intelligent recommendations.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience & Certifications -->
+    <section id="experience" class="section">
+        <h2 class="section-title">Experience & Certifications</h2>
+        <div class="timeline">
+            <!-- Experience -->
+            <div class="timeline-item">
+                <h3>Machine Learning Intern</h3>
+                <h4>Codtech IT Solutions Private Limited</h4>
+                <p class="date-stamp">Nov 20, 2025 - Dec 20, 2025 | Remote</p>
+                <p>Gained practical exposure to real-world ML workflows, data handling, and model development in a professional environment.</p>
+                <!-- REPLACE # WITH YOUR CERTIFICATE LINK -->
+                <a href="#" target="_blank" class="cert-link"><i class="fas fa-external-link-alt"></i> View Certificate</a>
+            </div>
+            <!-- Certification -->
+            <div class="timeline-item">
+                <h3>5-Day AI Agents Intensive Course</h3>
+                <h4>Kaggle & Google</h4>
+                <p>Completed intensive training on building and deploying Artificial Intelligence agents.</p>
+                <!-- REPLACE # WITH YOUR CERTIFICATE LINK -->
+                <a href="#" target="_blank" class="cert-link"><i class="fas fa-external-link-alt"></i> View Certificate</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section bg-alt">
+        <h2 class="section-title">Contact Me</h2>
+        <p style="text-align: center; margin-bottom: 2rem;">Let's connect! Send me a message below.</p>
+        <form id="contactForm" class="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+            <p id="form-status" style="margin-top: 10px; text-align: center;"></p>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Sk Altab Hossen. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
